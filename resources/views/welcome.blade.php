@@ -1,4 +1,14 @@
-<!doctype html>
+@extends('layouts.app')
+
+@section('title', 'Localizacion')
+
+@section('content')
+    <div class="title m-b-md" id="app">
+        <p class="text-center">Aqui debe ir fondo con imagen/logo de fondo</p>
+    </div>
+@endsection
+
+{{-- <!doctype html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
         <meta charset="utf-8">
@@ -29,11 +39,11 @@
 
             <div class="content">
                 <div class="title m-b-md" id="app">
-                    <example-component></example-component>
+                    
                 </div>
             </div>
         </div>
         
         <script src="js/app.js"></script>
     </body>
-</html>
+</html> --}}

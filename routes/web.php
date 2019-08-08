@@ -16,6 +16,10 @@ Route::get('/', function () {
 });
 
 Route::get('/map', function () {
-    return view('map');
+    return view('geolocalization.map');
+});
+
+Route::get('/ubicacion', function () {
+    return view('geolocalization.ubicacion');
 });
 

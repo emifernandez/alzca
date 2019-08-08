@@ -1720,7 +1720,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -6240,7 +6239,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n/* Always set the map height explicitly to define the size of the div\n * element that contains the map. */\n#map {\n  height: 500px;\n  width: 600px;\n}\n", ""]);
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n/* Always set the map height explicitly to define the size of the div\n * element that contains the map. */\n#map {\n  height: 500px;\n  width: 600px;\n}\n", ""]);
 
 // exports
 

@@ -5,7 +5,6 @@
                     <div class="card-header text-center">
                         <h4>Ubicación en tiempo real</h4>
                     </div>
-
                     <div class="card-body" style="height: 100%">
                         <div id="map" style="heigth: 100%; width: 100%">
                         </div>
