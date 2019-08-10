@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Http\Request;
-use App\Events\SendLocation;
+use alzca\Events\SendLocation;
 
 /*
 |--------------------------------------------------------------------------

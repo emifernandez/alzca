@@ -60236,7 +60236,8 @@ window.Echo = new laravel_echo__WEBPACK_IMPORTED_MODULE_0__["default"]({
   broadcaster: 'pusher',
   key: "6715415b3a44b3708d05",
   cluster: "us2",
-  encrypted: true
+  encrypted: true,
+  namespace: 'alzca.Events'
 });
 
 /***/ }),

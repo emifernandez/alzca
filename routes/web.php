@@ -17,9 +17,13 @@ Route::get('/', function () {
 
 Route::get('/map', function () {
     return view('geolocalization.map');
-});
+})->name('map');
 
 Route::get('/ubicacion', function () {
     return view('geolocalization.ubicacion');
-});
+})->name('ubicacion');
 
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
