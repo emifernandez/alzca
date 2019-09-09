@@ -82,12 +82,11 @@
                 </div>
             </div>
         </nav>
-
         <main class="container">
             @yield('content')
         </main>
     </div>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCAE7571t4sMsesecHbmBlz1EcvIu27X2c"
-        async defer></script>
+    ></script>
 </body>
 </html>

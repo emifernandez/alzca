@@ -1,15 +1,15 @@
 var x = document.getElementById("demo");
-        
+
 // function getLocation() {
 //     if (navigator.geolocation) {
 //     navigator.geolocation.getCurrentPosition(updateLocation);
-//     } else { 
+//     } else {
 //     x.innerHTML = "El navegador no soporta Geolocalizacion";
 //     }
 // }
 
 // function showPosition(position) {
-//     x.innerHTML = "Latitude: " + position.coords.latitude + 
+//     x.innerHTML = "Latitude: " + position.coords.latitude +
 //     "<br>Longitude: " + position.coords.longitude;
 // }
 
@@ -33,12 +33,12 @@ var tryAPIGeolocation = function() {
 		apiGeolocationSuccess({coords: {latitude: success.location.lat, longitude: success.location.lng}});
   })
   .fail(function(err) {
-    alert("API Geolocation error! \n\n"+err);
+    alert("API Geolocation error! \n\n"+err.toSource());
   });
 };
 
 var browserGeolocationSuccess = function(position) {
-    //alert("Browser geolocation success!\n\nlat = " + position.coords.latitude + "\nlng = " + position.coords.longitude);
+   // alert("Browser geolocation success!\n\nlat = " + position.coords.latitude + "\nlng = " + position.coords.longitude);
     updateLocation(position);
 };
 

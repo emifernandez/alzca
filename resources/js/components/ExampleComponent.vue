@@ -25,7 +25,7 @@
     export default {
         data() {
             return {
-                map: null,
+                map: window.map,
                 marker: null,
                 center: {lat: -34.397, lng: 150.644},
                 data: null,

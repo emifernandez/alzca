@@ -1723,7 +1723,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
-      map: null,
+      map: window.map,
       marker: null,
       center: {
         lat: -34.397,
