@@ -44,6 +44,9 @@
                                 <li class="nav-item">
                                     <a class="nav-link" href="{{ route('ubicacion') }}">{{ __('Ubicacion') }}</a>
                                 </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{{ route('beloved') }}">{{ __('Familiar') }}</a>
+                                </li>
                             @endauth
                     </ul>
 

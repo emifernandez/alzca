@@ -23,7 +23,10 @@ Route::get('/ubicacion', function () {
     return view('geolocalization.ubicacion');
 })->name('ubicacion');
 
-
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::resource('beloved', 'BelovedController');
+
+Route::get('/beloved', 'BelovedController@index')->name('beloved');
